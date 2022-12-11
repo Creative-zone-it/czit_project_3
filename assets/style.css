@@ -87,3 +87,72 @@ body{
     text-transform: uppercase;
     padding-bottom: 10px;
 }
+
+
+.findHolyDays{
+    padding-top:20px ;
+    padding-bottom: 20px;
+    background-color: rgb(28, 28, 72);
+}
+.holyDayTitle{
+    width: 20%;
+    color: white;
+}
+.holyDayForm{
+    width: 80%;
+}
+.holyDayForm form{
+    display: flex;
+    justify-content: space-between;
+}
+.holyDayForm form input{
+    width: 40%;
+    padding: 8px;
+}
+.holyDayForm form button{
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(62, 203, 250);
+}
+
+.offersTitle{
+    text-align: center;
+}
+
+/* offersCotainer */
+.offersCotainer{
+    padding-top:80px ;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.offer{
+    width: 18%;
+    border: 1px solid black;
+    transition: 0.4s;
+    margin: 10px;
+}
+
+.offerImage{
+    height: 200px;
+    max-width: 100%;
+}
+.offerinfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    
+}
+.shortInfo{
+    color: grey;
+    font-size: 13px;
+}
+.offer:hover{
+    background-color: rgb(22, 22, 76);
+    box-shadow: 0px 0px 3px 10px rgb(10, 213, 249);
+}
+.offerGallery{
+    display: flex;
+    flex-wrap: wrap;
+}
